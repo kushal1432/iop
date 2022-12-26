@@ -1,0 +1,4 @@
+def multiply (x,y):
+    print("multiply {} and {}".format(x,y))
+    result = x * y
+    return result

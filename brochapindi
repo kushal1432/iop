@@ -1,0 +1,8 @@
+def mystery(n):
+    result = 0
+    for i in range(n):
+        value =(str(i+1)) * (i+1)
+        result = result + int(value)
+    return result
+output = mystery(4)
+print(output)
